@@ -15,7 +15,7 @@ namespace learn_2.Controllers
         public ActionResult Index()
         {
             return View(ff.PersonInfos.Select(c=> new PersonViewModel() { 
-            ID=c.PersonID,
+            ID=c.ID,
             Name=c.Name,
             LastName=c.LastName,
             Mobile=c.Mobile,

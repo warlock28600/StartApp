@@ -8,7 +8,7 @@ namespace learn_2.Models.Person
 {
     public class PersonInfo
     {
-        public int PersonID { get; set; }
+        public int ID { get; set; }
         public string Name  { get; set; }
         public string LastName { get; set; }
         public string Mobile { get; set; }

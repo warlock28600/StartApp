@@ -11,6 +11,7 @@ namespace learn_2.Models.WorkPlace
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public ICollection<DaysOfWeek> DaysOfWeeks{ get; set; }
+        public ICollection<PersonInfo> PersonInfos { get; set; }
+
     }
 }
